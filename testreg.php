@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
-	<head>
-	<title>adapt</title>	
+<head>
+    <title>adapt</title>
     <meta charset="UTF-8"/>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	</head>
-    <body>
-    	<?php if(file_exists('./blocks/header.php')) include './blocks/header.php'; ?>
+</head>
+<body>
+<?php if (file_exists('./blocks/header.php')) include './blocks/header.php'; ?>
 
 <main>
     <form class="form">
@@ -20,9 +20,9 @@
 </main>
 
 
-    	<?php if(file_exists('./blocks/footer.php')) include './blocks/footer.php'; ?>
+<?php if (file_exists('./blocks/footer.php')) include './blocks/footer.php'; ?>
 
 
-        <script type="text/javascript" src="script.js"></script>
-    </body>
+<script type="text/javascript" src="script.js"></script>
+</body>
 </html>

@@ -1,12 +1,8 @@
-﻿
-<?php
+﻿<?php
 $host = 'localhost'; // адрес сервера 
 $database = 'nails'; // имя базы данных
-$user = 'Admin'; // имя пользователя
-$password = 'Djljrfyfk48'; // пароль
-
-
-
+$user = ''; // имя пользователя
+$password = ''; // пароль
 
 
 // подключаемся к серверу

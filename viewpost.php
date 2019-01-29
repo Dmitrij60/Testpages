@@ -2,8 +2,8 @@
 
 // подключаем БД
 require_once 'blocks/db.php';
-if (!empty($_GET['id'])){
-	$id=$_GET['id'];
+if (!empty($_GET['id'])) {
+    $id = $_GET['id'];
 }
 
 
@@ -15,17 +15,17 @@ $row = $stmt->fetch();
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Blog</title>
-	<link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+    <meta charset="UTF-8">
+    <title>Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
-		<?php if(file_exists('./blocks/header.php')) include './blocks/header.php'; ?>
+<?php if (file_exists('./blocks/header.php')) include './blocks/header.php'; ?>
 <main>
-<?php
-printf("
+    <?php
+    printf("
 	<div class='post-container'>
 	    <div class='post-header'>
 	    	<div class='post-cover'>
@@ -54,9 +54,9 @@ printf("
         </div>
     </div>
 ", $row['image'], $row['title'], $row['text'], $row['tags'], $row['date']);
-?>
+    ?>
 </main>
-	<?php if(file_exists('./blocks/footer.php')) include './blocks/footer.php'; ?>
-	
+<?php if (file_exists('./blocks/footer.php')) include './blocks/footer.php'; ?>
+
 </body>
 </html>
