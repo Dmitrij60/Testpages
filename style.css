@@ -1,0 +1,555 @@
+
+
+/*****Сброс*****/ 
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+/*****Базовые элементы*****/ 
+a {
+	text-decoration: none;
+	color: white;
+}
+/* a:visited { color:black; }*/
+
+li {
+	text-decoration: none;
+	list-style: none;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	height: 100%;
+	}
+
+	
+
+
+/*****Логотип и меню*****/ 
+.logo {
+	background: #000000;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+
+.graficlogo {
+	max-width: 100%;
+    box-sizing: border-box;
+}
+
+.reg{
+	background-color: black;
+}
+
+.reg-status p{
+	color: #1680c2;
+	margin-left: 18px;
+}
+
+.reg-button a:hover{
+	background-color: #1680c2;
+	 border-radius: 7px;
+	 }
+.reg-button{
+padding-bottom: 6px;
+}
+.reg-button p{
+	text-align: center;
+	width: 10%;
+	color: white;
+    border: 2px solid white;
+    border-radius: 7px;
+    }
+
+.reg a{
+	display: block;
+
+}
+
+.reg a:visited { color:white; }
+
+
+nav {
+	margin: auto;
+	width: 800px;
+	height: 50px;
+}
+
+.topnav {
+	background-color: #fff;
+	font-size: 14px;
+	margin-top: 40px;
+}
+
+.topnav a {
+	color: #000;
+	text-align: center;
+	padding: 14px 16px;
+	font-size: 15px;
+}
+
+.topnav a:hover {
+	border-bottom: 1px solid #87CEEB;
+}
+
+.topnav .icon {
+	display: none;
+}
+
+/*****Контент главной страницы + эдвэнтэджес*****/ 
+.mw-100{
+max-width: 100%;
+width: 100%;
+}
+
+
+.advntages_container{
+	display: flex;
+	justify-content: center;
+}
+
+
+.advantages{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	flex-wrap: wrap;
+}
+
+.advantages_item{
+	width: 30%;
+}
+
+/*****Проекты*****/ 
+.gallery{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 50px;
+}
+
+.photo-item{
+	width: 25%;
+}
+
+.photo-item img{
+	padding-left: 25px;
+	box-sizing: border-box;
+	max-width: 100%;
+	max-height: 85%;
+	opacity: .7;
+	border-radius: 5px;
+}
+
+.photo-item img:hover{
+	opacity: 1;
+}
+
+/*****футер*****/ 
+footer{
+	width: 100%;
+	height: auto;
+	background-color: #000;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 25px;
+	  }
+
+
+footer a{
+	color: #fff;
+	font-size: 14px;
+	margin-left: 10px;
+}
+
+footer nav a:hover{
+	border-bottom: 1px solid white;
+}
+
+.social img{
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.social img:hover{
+	background-color: #494949;
+	border-radius: 50%;
+}
+/*****Карта*****/ 
+
+#map{
+	width: 100%;
+	height: 600px;
+}
+
+/*****Контактная форма*****/ 
+.form{
+	width: 50%;
+	margin: 50px auto;
+}
+.feedback-input{
+	text-align: center;
+	color: #000;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 22px;
+	background-color: white;
+	padding: 13px;
+	margin-bottom: 10px;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 0px solid transparent;
+	border-bottom: 1px solid #000; 
+}
+
+textarea{
+	width: 100%;
+	height: 150px;
+	resize: vertical;
+}
+
+.button-submit{
+	float: left;
+	width: 100%;
+	border: 0px solid transparent;
+	cursor: pointer;
+	background-color: #000;
+	color: white;
+	font-size: 18px;
+	padding-top: 22px;
+	padding-bottom: 22px;
+	transition: all 0.8s; 
+	margin-top: -4px;
+	font-weight: 300;
+}
+
+.button-submit:hover{
+	background-color: white;
+	color: black; 
+	border: 1px solid #000; 
+}
+
+.easy{
+	width: 0;
+	height: 74px;
+	background-color: #fbfbfb;
+	transition: .3s ease; 
+}
+
+
+
+
+
+/*****Блог- список статей*****/ 
+
+.blog-container{
+	background-color: #fafafa;
+	border-radius: 5px;
+	box-shadow: rgba(0,0,0,0.2)0 4px 2px -2px;
+	font-weight: 100;
+	margin: 48px auto;
+	width: 50rem;
+}
+.blog-container a:hover{
+color: #4682B4;
+}
+
+
+.blog-cover{
+	
+	background-size: cover;
+	border-radius: 5px 5px 0 0;
+	height: 20rem;
+	box-shadow: inset rgba(0,0,0,0.2)0 64px 64px 16px;
+	 overflow: hidden;
+}
+
+.blog-cover img{
+	
+	width: 100%;
+	height: 100%;
+	}
+
+.blog-body{
+	margin: 0 auto;
+	width: 80%;
+}
+
+.blog-title h1 a{
+color: #333;
+font-weight: 100;
+}
+.blog-text p{
+	color: #4d4d4d;
+}
+
+.blog-tags ul{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	list-style: none;
+	padding-left: 0;
+}
+
+.blog-tags li + li{
+	margin-left: .5rem;
+}
+.blog-tags a{
+	border: 1px solid #999999;
+	border-radius: 3px;
+	color: #999999;
+	font-size: .75rem;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	letter-spacing: 1px;
+	padding: 0 .5rem;
+	text-align: center;
+	text-transform: uppercase;
+	white-space: nowrap;
+	width: 5rem;
+}
+
+.blog-footer{
+	border-top: 1px solid #e6e6e6;
+	margin: 0 auto;
+	padding-bottom: .125rem;
+	width: 80%;
+}
+.blog-footer ul{
+	list-style: none;
+	display: flex;
+	flex: row flex;
+	justify-content: flex-end;
+	padding-left: 0px;
+}
+
+.blog-footer li{
+	color: #999999;
+	font-size: .75rem;
+	height: 1,5rem;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	white-space: nowrap;
+}
+.published-date{
+	border: 1px solid #999999;
+	border-radius: 3px;
+	padding: 0 .5rem;
+}
+
+
+
+/*****Блог - одна статья*****/ 
+.post-container{
+    background-color: #fafafa;
+	border-radius: 5px;
+	box-shadow: rgba(0,0,0,0.2)0 4px 2px -2px;
+	margin: 48px auto;
+	width: 50rem;
+}
+
+.post-cover img{
+	
+	width: 100%;
+	height: 100%;
+	}
+.post-body{
+	margin: 0 auto;
+	width: 80%;
+}
+.post-title {
+    text-align: center;
+    color: #333;
+    font-weight: 100;
+}
+.post-text p{
+	color: #4d4d4d;
+}
+
+
+.post-tags ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	list-style: none;
+	padding-left: 0;
+}
+
+.post-tags li + li{
+	margin-left: .5rem;
+}
+.post-tags a{
+	border: 1px solid #999999;
+	border-radius: 3px;
+	color: #999999;
+	font-size: .75rem;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	letter-spacing: 1px;
+	padding: 0 .5rem;
+	text-align: center;
+	text-transform: uppercase;
+	white-space: nowrap;
+	width: 5rem;
+}
+
+.post-footer{
+	border-top: 1px solid #e6e6e6;
+	margin: 0 auto;
+	padding-bottom: .125rem;
+	width: 80%;
+}
+.post-footer ul{
+	list-style: none;
+	display: flex;
+	flex: row flex;
+	justify-content: flex-end;
+	padding-left: 0px;
+}
+
+.post-footer li{
+	color: #999999;
+	font-size: .75rem;
+	height: 1,5rem;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	white-space: nowrap;
+}
+.post-date{
+	border: 1px solid #999999;
+	border-radius: 3px;
+	padding: 0 .5rem;
+}
+
+/*****О компании*****/ 
+.about-container{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+.about-container img{
+	max-width: 100%;
+	border-radius: 10px;
+}
+
+.about-container p{
+margin-top: 50px;
+}
+
+/*****Сервисы*****/ 
+.services{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.services img{
+	border-radius: 10px;
+	max-width: 100%;
+}
+
+.services-container{
+	margin-top: 50px;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 50px 100px;
+}
+
+
+
+
+
+
+/*****Медиа запросы*****/ 
+@media screen and (max-width: 780px) {
+	.topnav a:not(:first-child) {
+		display: none;
+	}
+	.topnav a.icon {
+		float: right;
+		margin-top: -17px;
+		display: block;
+		color: black;
+	}
+	nav {
+		width: 100%;
+		
+	}
+	.topnav.responsive {
+		position: relative;
+	}
+	.topnav.responsive a.icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.topnav.responsive a {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+
+
+	.advantages_item{
+		width: 45%;
+	}
+
+	.blog-container{
+		width: 28rem;
+	}
+
+	.post-container{
+		width: 28rem;
+	}
+
+    .photo-item{
+    	width: 45%;
+    	margin-left: 10px;
+    }
+
+}
+
+@media screen and (max-width: 420px){
+.advantages{
+	flex-direction: column;
+}
+.advantages_item{
+	width: 100%;
+}
+.blog-container{
+	width: 20rem;
+	}
+.services-container{
+	grid-template-columns: auto;
+	}
+
+	.project{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.gallery{
+		width: auto;
+		margin: auto;
+	}
+
+	.photo-item{
+		width: 70%;
+		margin: 0 auto;
+	}
+}	
